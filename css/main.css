@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* Custom Properties */
+
+:root {
+	--leading: 2em;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.hero-bg {
+	background: #307d99 url('/Images/bg.jpg');
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding-bottom: 4em;
+}
+
+header {
+	padding: 1em 0;
+}
+
+.hero-bg a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+section {
+	margin: 0 1em;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 2em 0 1.2em;
+}
+
+h1 span {
+	text-transform: uppercase;
+	display: block; /* to display the title alone */
+	font-size: 1.4rem; /* rem unit is for the font em unit for margin and padding */
+	position: relative; /* need to be here first for chide element to be absolute */
+	z-index: 1;
+}
+
+h1 span::before {
+	content: ' ';
+	position: absolute;
+	width: 3em;
+	background: #00bfff;
+	height: 0.4em;
+	bottom: 0;
+	z-index: -1;
+	margin-left: -0.3em;
+}
+
+.hero-bg p {
+	font-weight: bold;
+	margin: 0 1em 3rem;
+}
+
+.form-container {
+	background-color: white;
+	margin: 2em -1em 0;
+	padding: 2em;
+}
+
+label {
+	color: #2d7d98;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+input[type='text'] {
+	border: 1px solid #707070;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box; /* align input text center */
+	border-radius: 0.5em;
+	margin-top: 1.2em;
+}
+
+.form-container p {
+	color: gray;
+	margin-bottom: 1.5;
+	font-weight: normal;
+	margin-top: 0.3em;
+}
+
+input[type='button'] {
+	background-color: #f89104;
+	border: none;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	padding: 1em 0;
+	border-radius: 0.5em;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+input[type='button']:hover {
+	background-color: #e28605;
+}
+
+.authentic {
+	margin: 0;
+}
+
+.right-col {
+	text-align: center;
+	margin: 3em 1em;
+}
+
+h2 {
+	text-transform: uppercase;
+	position: relative;
+}
+
+h2::before {
+	content: ' ';
+	position: absolute;
+	width: 8em;
+	background: #00bfff;
+	height: 0.4em;
+	bottom: 0;
+	z-index: -1;
+	margin-left: -0.3em;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	line-height: var(--leading);
+}
