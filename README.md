@@ -1,6 +1,4 @@
 # front-end-Exercise
-### In this project I build my own version of the Microsoft homepage using:
-
 - HTML
 - CSS
 - JavaScript
