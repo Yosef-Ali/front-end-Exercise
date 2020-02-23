@@ -5,4 +5,4 @@
 
 [Front-end-Exercise](https://sad-bartik-13563c.netlify.com)
 
-![Front end Exercise](/images/home.jpg)
+![Front end Exercise](images/home.jpg)
