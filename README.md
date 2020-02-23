@@ -11,4 +11,4 @@
 
 [Traversy Media](https://www.youtube.com/watch?v=uKgn-To1C4Q)
 
-![Microsoft Home page Clone](/images/MS-home.jpg)
+![Microsoft Home page Clone](/images/Home.jpg)
